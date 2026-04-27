@@ -1,11 +1,11 @@
-// No imports needed, using global THREE
+Units: mmUnits: mm// No imports needed, using global THREE
 
 let scene, camera, renderer, mesh, controls;
 
 function init() {
   // Scene
   scene = new THREE.Scene();
-  scene.background = new THREE.Color(0xf4f4f4);
+  scene.background = new THREE.Color(0x001f3f); // dark blue
 
   // Camera
   camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
