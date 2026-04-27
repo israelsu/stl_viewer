@@ -56,6 +56,15 @@
         <label for="file-input">Upload STL File:</label>
         <input type="file" id="file-input" accept=".stl" />
         <span id="file-name"></span>
+        <span style="margin-left: 20px;"></span>
+        <label for="layer-height">Layer Height:</label>
+        <select id="layer-height">
+          <option value="0.12">0.12mm</option>
+          <option value="0.2">0.2mm</option>
+          <option value="0.3">0.3mm</option>
+          <option value="0.4">0.4mm</option>
+        </select>
+        <button id="slice-btn">Slice</button>
       </div>
       <div id="viewer"></div>
       <div id="info">Units: mm</div>
